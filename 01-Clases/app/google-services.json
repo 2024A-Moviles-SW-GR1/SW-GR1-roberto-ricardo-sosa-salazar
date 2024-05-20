@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "893273538441",
+    "project_id": "rrss-swgr1-2024a",
+    "storage_bucket": "rrss-swgr1-2024a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893273538441:android:460bf1be6729e91ddf2b58",
+        "android_client_info": {
+          "package_name": "com.example.a2024swgr1rrss"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLqJ6hrU63cDMnH0eIRgPxWChz4Qjq0DY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
