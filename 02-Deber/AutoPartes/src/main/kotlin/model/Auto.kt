@@ -15,14 +15,14 @@ data class Auto(
 
         fun cargarAutos(): MutableList<Auto> {
             return try {
-                ObjectInputStream(FileInputStream("src/main/kotlin/model/autos.txt")).use { it.readObject() as MutableList<Auto> }
+                ObjectInputStream(FileInputStream("src/main/kotlin/data/autos.txt")).use { it.readObject() as MutableList<Auto> }
             } catch (e: Exception) {
                 mutableListOf()
             }
         }
 
         fun guardarAutos(autos: List<Auto>) {
-            ObjectOutputStream(FileOutputStream("src/main/kotlin/model/autos.txt")).use { it.writeObject(autos) }
+            ObjectOutputStream(FileOutputStream("src/main/kotlin/data/autos.txt")).use { it.writeObject(autos) }
         }
 
         fun crearAuto(autos: MutableList<Auto>, auto: Auto) {

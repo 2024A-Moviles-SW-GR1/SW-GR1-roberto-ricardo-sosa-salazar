@@ -15,14 +15,14 @@ data class Parte(
 
         fun cargarPartes(): MutableList<Parte> {
             return try {
-                ObjectInputStream(FileInputStream("src/main/kotlin/model/partes.txt")).use { it.readObject() as MutableList<Parte> }
+                ObjectInputStream(FileInputStream("src/main/kotlin/data/partes.txt")).use { it.readObject() as MutableList<Parte> }
             } catch (e: Exception) {
                 mutableListOf()
             }
         }
 
         fun guardarPartes(partes: List<Parte>) {
-            ObjectOutputStream(FileOutputStream("src/main/kotlin/model/partes.txt")).use { it.writeObject(partes) }
+            ObjectOutputStream(FileOutputStream("src/main/kotlin/data/partes.txt")).use { it.writeObject(partes) }
         }
 
         fun crearParte(partes: MutableList<Parte>, parte: Parte) {
