@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/editar_auto_menu"
+        android:title="Editar" />
+    <item
+        android:id="@+id/eliminar_auto_menu"
+        android:title="Eliminar" />
+    <item
+        android:id="@+id/partes_auto_menu"
+        android:title="Ver partes" />
+</menu>

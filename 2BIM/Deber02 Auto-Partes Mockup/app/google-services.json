@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "93747486699",
+    "project_id": "erpn-swgr1-2024a",
+    "storage_bucket": "erpn-swgr1-2024a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93747486699:android:4fcbc8f8855d60aaa003ae",
+        "android_client_info": {
+          "package_name": "com.example.a2024aswgr1erpn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAx4AFHox0J8Pn5x1kw-qtDJGKW9NMLRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93747486699:android:a8f0948bb96925aaa003ae",
+        "android_client_info": {
+          "package_name": "com.example.a2024swerpnd2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAx4AFHox0J8Pn5x1kw-qtDJGKW9NMLRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
